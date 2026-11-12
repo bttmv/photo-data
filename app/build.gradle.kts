@@ -48,7 +48,7 @@ dependencies {
     implementation("androidx.compose.material3:material3")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
     // استخراج شامل: EXIF + XMP + IPTC + MakerNotes + ICC ...
-    implementation("com.drewnoakeson:metadata-extractor:2.19.0")
+    implementation("com.drewnoakes:metadata-extractor:2.19.0")
     // قراءة النص من الصورة (OCR) يعمل بدون إنترنت
     implementation("com.google.mlkit:text-recognition:16.0.1")
     implementation("io.coil-kt:coil-compose:2.6.0")
