@@ -229,7 +229,7 @@ private fun dial(context: android.content.Context, number: String) {
 @OptIn(androidx.compose.material3.ExperimentalMaterial3Api::class)
 @Composable
 private fun InfoRow(k: String, v: String, onClick: () -> Unit) {
-    Card(Modifier.fillMaxWidth(), onClick = onClick) {
+    Card(onClick = onClick, modifier = Modifier.fillMaxWidth()) {
         Row(Modifier.fillMaxWidth().padding(10.dp), horizontalArrangement = Arrangement.SpaceBetween) {
             Text(k, style = MaterialTheme.typography.labelLarge, modifier = Modifier.weight(0.4f))
             Spacer(Modifier.width(8.dp))
